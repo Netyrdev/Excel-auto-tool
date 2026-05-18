@@ -1,0 +1,19 @@
+{
+  "input_file": "Example.xlsx",
+  "output_file": "resultado_limpio.xlsx",
+  "header_row": 1,
+  "columns": {
+    "price": "PRECIO ORI",
+    "discount": "DESCUENTOS APROXIMADOS",
+    "description": "NOMBRES Y DESCRIPCION"
+  },
+  "top_n": 5,
+  "chart": {
+    "enabled": true,
+    "type": "bar",
+    "x_column": "NOMBRES Y DESCRIPCION",
+    "y_column": "PRECIO ORI",
+    "top_n": 5
+  }
+}
+
